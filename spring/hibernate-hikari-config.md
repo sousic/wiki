@@ -5,7 +5,7 @@
 
     스프링 공부중에 정리한거라 틀릴수도 있다.
 
-    pom.xml 설정
+    #pom.xml 설정
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
@@ -30,7 +30,7 @@
             <version>2.6.0</version>
         </dependency>
 
-    config.xml
+    #config.xml 설정
         <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
             <property name="maximumPoolSize" value="10"/>
             <property name="minimumIdle" value="5"/>
